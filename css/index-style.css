@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
 body {
   margin: 0px;
   padding: 0px;
@@ -10,7 +12,6 @@ body {
 
 html {
   font-size: 62.5%;
-  text-align: center;
 }
 
 .wrapper{
@@ -174,4 +175,10 @@ a:hover {
   .badge{
     margin: 10px;
   }
+}
+
+hr {
+   border: 0;
+   height: 1px;
+   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
