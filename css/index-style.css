@@ -128,3 +128,50 @@ a:hover {
     margin: 10px;
   }
 }
+
+@media only screen and (max-width: 944px) {
+  .navbar-text {
+    font-size: 110%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .wrapper {
+    margin: 78px;
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .wrapper {
+    margin: 200px;
+    margin-top: 20px;
+  }
+}
+@media only screen and (max-width: 1280px) {
+ .wrapper {
+    margin: 0px;
+    padding: 0px;
+  }
+  .badges img {
+      height: 50px;
+  width: 0px 100%;
+  }
+  #nav-image{
+    float: none;
+    margin-top: 10px;
+    margin-left: 34px;
+  }
+
+  .navbar-text{
+    text-align: center;
+  }
+
+  .badges{
+    margin-right: 30px;
+  }
+
+  .badge{
+    margin: 10px;
+  }
+}
