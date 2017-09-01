@@ -182,3 +182,34 @@ hr {
    height: 1px;
    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
+
+h1 {
+  font-weight: lighter;
+}
+
+button {
+  display: inline-block;
+height: 38px;
+padding: 0 30px;
+color: #555;
+text-align: center;
+text-transform: uppercase;
+text-decoration: none;
+background-color: transparent;
+border-radius: 4px;
+cursor: pointer;
+box-sizing: border-box;
+border: 1px solid #bbb;
+font-size: 11px;
+font-weight: 400;
+white-space: nowrap;
+line-height: 38px;
+letter-spacing: .1rem;
+margin: 5px;
+transition: font-size 500ms ease-in-out;
+}
+
+button:hover{
+  font-size: 15px;
+  font-weight: 600;
+}
