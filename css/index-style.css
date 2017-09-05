@@ -96,7 +96,6 @@ a {
 }
 
 .badge p {
-  display: inline;
   text-align: center;
 }
 
@@ -273,4 +272,13 @@ display: block;
  margin: 0 auto;
 margin-bottom: 5px;
   }
+}
+
+@media only screen and (max-width: 1024px){
+  #nav-image{
+    display: block;
+ margin: 0 auto;
+    margin-bottom: 5px;
+  }
+
 }
