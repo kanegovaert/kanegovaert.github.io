@@ -257,3 +257,20 @@ button:hover{
   margin-right: 20px;
 }
 }
+
+
+@media only screen and (max-height: 736px) {
+
+  br{
+    display: none;
+  }
+}
+
+@media only screen and (max-height: 736px) {
+
+  #nav-image{
+display: block;
+ margin: 0 auto;
+margin-bottom: 5px;
+  }
+}
