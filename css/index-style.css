@@ -151,6 +151,13 @@ a:hover {
 	.project-cell-image{
 		height: 70% !important;;
 	}
+
+	.my-schedule{
+		display: inline !important;
+	}
+	.schedule{
+		width: 100% !important;
+	}
 }
 @media only screen and (max-width: 1280px){
 		#nav-image{
@@ -320,4 +327,23 @@ button:hover {
 
 #hr-under-projects {
 	margin-top: 20px;
+}
+
+h2{
+	font-weight: 200;
+}
+
+#clear{
+	clear: both;
+	display: block;
+}
+
+.my-schedule{
+	justify-content: center;
+	display: flex;
+	width: 100%;
+}
+
+.schedule{
+	width: 48%;
 }
