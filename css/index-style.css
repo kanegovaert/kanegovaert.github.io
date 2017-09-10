@@ -321,7 +321,7 @@ button:hover {
 	margin-bottom: 17px;
 }
 
-#project-cell-title a {
+.project-cell-title a {
 	text-decoration: underline;
 }
 
@@ -333,7 +333,7 @@ h2{
 	font-weight: 200;
 }
 
-#clear{
+.clear{
 	clear: both;
 	display: block;
 }
