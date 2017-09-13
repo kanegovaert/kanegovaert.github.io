@@ -3,143 +3,17 @@
                Welcome =)
 ####################################
 */
-@import url('https://fonts.googleapis.com/css?family=Raleway');
 
-body {
-	margin: 0px;
-	padding: 0px;
-	font-size: 1.5em;
-	line-height: 1.6;
-	font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-weight: 400;
-	color: #222;
-}
 
-.badges{
-	font-size: 85%;
-}
-html {
-	font-size: 82.6%;
-}
-.wrapper {
-	margin: 278px;
-	margin-top: 25px;
-}
 
-/*
-####################################
-               Navigation Bar
-####################################
-*/
-.navbar {
-	line-height: 1.35;
-	letter-spacing: -.08rem;
-}
-#nav-link {
-	text-decoration: none;
-	color: black;
-	font-size: 160%;
-	letter-spacing: 5px;
-}
-#nav-link:hover {
-	color: blue;
-}
-#nav-image {
-	height: 267px;
-	max-width: 0px auto;
-	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
-	margin-right: 35px;
-	margin-left: 0px;
-	float: left;
-	margin-top: 10px;
-}
-.navbar-text {
-	margin-top: 30px;
-	line-height: 1.35;
-	letter-spacing: 2px;
-	text-align: left;
-}
-.badge {
-	flex: 1;
-	margin: auto;
-	color: black;
-	height: 100%;
-	box-sizing: border-box;
-	display: flex;
-	flex-direction: column;
-	text-align: center;
-	max-width: 25%;
-	height: 100px;
-	width: 100%;
-	margin-bottom: 2px;
-	font-size: 64%;
-}
-.badge a {
-	flex: 2;
-	padding: 0px 25%;
-	display: inline-block;
-}
-.badges img {
-	opacity: 1.0;
-	transition: opacity 500ms ease-in-out;
-	height: 86.7px;
-	width: 0px 100%;
-}
-.badges img:hover {
-	opacity: 0.7;
-}
-.badges {
-	display: flex;
-}
-a {
-	text-decoration: none;
-	text-align: center;
-	color: #222;
-	transition: opacity 500ms ease-in-out;
-}
-.badge p {
-	text-align: center;
-}
-.nav-innertext {
-	margin-right: 20px;
-}
-a:hover {
-	opacity: 0.7;
-}
+
 /*
 ####################################
                Media queries
 ####################################
 */
 
-@media only screen and (max-width: 500px) {
-	.wrapper {
-		margin: 0px;
-		padding: 0px;
-	}
-	.badges img {
-		height: 50px;
-		width: 0px 100%;
-	}
-	#nav-image {
-		float: none;
-		margin-top: 10px;
-	}
-	.navbar-text {
-		text-align: center;
-	}
-	.badges {
-		margin-right: 30px;
-	}
-	.badge {
-		margin: 10px;
-	}
-}
-@media only screen and (max-width: 944px) {
-	.navbar-text {
-		font-size: 110%;
-	}
-}
+
 @media only screen and (max-width: 832px){
 	.project-cell{
 		float: none !important;
@@ -159,145 +33,6 @@ a:hover {
 		width: 100% !important;
 	}
 }
-@media only screen and (max-width: 1280px){
-		#nav-image{
-			display: block;
-			margin: 0px auto !important;;
-		}
-}
-@media only screen and (max-width: 1024px) {
-	.wrapper {
-		margin: 78px;
-		margin-top: 20px;
-	}
-}
-@media only screen and (max-width: 1280px) {
-	.wrapper {
-		margin: 200px;
-		margin-top: 20px;
-	}
-}
-@media only screen and (max-width: 1280px) {
-	.wrapper {
-		margin: 20px;
-		padding: 0px;
-	}
-	.badges img {
-		height: 50px;
-		width: 0px 100%;
-	}
-	#nav-image {
-		float: none;
-		margin-top: 10px;
-		margin-left: 34px;
-	}
-	.navbar-text {
-		text-align: center;
-	}
-	.badges {
-		margin-right: 30px;
-	}
-	.badge {
-		margin: 10px;
-		margin-left: 4px;
-	}
-}
-hr {
-	border: 0;
-	height: 1px;
-	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-	margin-top: 130px;
-}
-h1 {
-	font-weight: lighter;
-}
-button {
-	display: inline-block;
-	height: 38px;
-	padding: 0 30px;
-	color: #555;
-	text-align: center;
-	text-transform: uppercase;
-	text-decoration: none;
-	background-color: transparent;
-	border-radius: 4px;
-	cursor: pointer;
-	box-sizing: border-box;
-	border: 1px solid #bbb;
-	font-size: 11px;
-	font-weight: 400;
-	white-space: nowrap;
-	line-height: 38px;
-	letter-spacing: .1rem;
-	margin: 5px;
-	transition: font-size 500ms ease-in-out;
-}
-button:hover {
-	font-size: 15px;
-	font-weight: 600;
-}
-@media only screen and (max-width: 1920px) {
-	.navbar-text {
-		margin: 0px;
-	}
-	#nav-image {
-		display: block;
-		margin: 0 auto;
-		margin-right: auto;
-		margin-bottom: 0px;
-		margin-top: 5px;
-		margin-bottom: 20px;
-		margin-right: 20px;
-	}
-}
-@media only screen and (max-width: 1920px) {
-	#nav-image {
-		display: block;
-		margin: 0 auto;
-		margin-bottom: 20px;
-		margin-top: 8px;
-	}
-	hr {
-		margin-top: 0px;
-	}
-}
-@media only screen and (max-height: 768px) {
-	#nav-image {
-		margin-right: 20px;
-	}
-}
-@media only screen and (max-height: 736px) {
-	br {
-		display: none;
-	}
-}
-@media only screen and (max-height: 736px) {
-	#nav-image {
-		display: block;
-		margin: 0 auto;
-		margin-bottom: 5px;
-	}
-}
-@media only screen and (max-width: 1024px) {
-	#nav-image {
-		display: block;
-		margin: 0 auto;
-		margin-bottom: 5px;
-	}
-}
-@media only screen and (max-height: 736px), (max-width: 1366px) {
-	#nav-image {
-		margin-top: 7px !important;
-	}
-	br {
-		display: unset !important;
-	}
-}
-
-.projects{
-	/*! height: 733px; */
-}
-
 .project-cell {
 	height: 87%;
 	width: 31%;
@@ -323,14 +58,6 @@ button:hover {
 
 .project-cell-title a {
 	text-decoration: underline;
-}
-
-#hr-under-projects {
-	margin-top: 20px;
-}
-
-h2{
-	font-weight: 200;
 }
 
 .clear{
