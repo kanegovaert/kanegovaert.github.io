@@ -23,7 +23,7 @@
 		margin-top: 20px !important;
 	}
 	.project-cell-image{
-		height: 70% !important;;
+		/*! height: 70% !important; */;
 	}
 
 	.my-schedule{
@@ -42,6 +42,8 @@
 	padding: 17px;
 	box-sizing: border-box;
 	float: left;
+	height: 627px;
+	overflow: auto;
 }
 .project-cell-image{
 	height: 203px;
