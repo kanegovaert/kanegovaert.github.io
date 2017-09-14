@@ -251,3 +251,9 @@ hr {
 	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 	 /* margin-top: 130px; NOTICE REMOVED LINE HERE */
 }
+
+@media only screen and (max-width: 1280px), and (max-height: 480px){
+	#nav-link {
+		text-align: center !important;
+	}
+}
