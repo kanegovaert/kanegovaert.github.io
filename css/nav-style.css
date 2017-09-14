@@ -239,6 +239,7 @@ a:hover {
 @media only screen and (max-height: 736px), (max-width: 1366px) {
 	#nav-image {
 		margin-top: 7px !important;
+		margin-right: 20px;
 	}
 	br {
 		display: unset !important;
