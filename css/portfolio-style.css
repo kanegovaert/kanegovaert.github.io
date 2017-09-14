@@ -11,7 +11,7 @@ html, body {
 .portfolio-item{
   position: relative;
   display: flex;
-  height: 480px;
+  height: 490px;
   width: 75%;
   display: block;
   margin: 6px;
@@ -22,9 +22,10 @@ html, body {
   margin-top: 20px;
   margin: 0 auto;
   margin-top: 20px;
+  overflow: auto;
 }
 div.portfolio-item img {
-  width: 400px;
+  width: 58%;
   height: 0px auto;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
   display: block;

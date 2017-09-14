@@ -64,6 +64,8 @@
 	color: black;
 	font-size: 160%;
 	letter-spacing: 5px;
+  display: block;
+  text-align: left;
 }
 #nav-link:hover {
 	color: blue;
