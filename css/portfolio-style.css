@@ -12,7 +12,7 @@ html, body {
   position: relative;
   display: flex;
   height: 490px;
-  width: 75%;
+  width: 100%;
   display: block;
   margin: 6px;
   border-top: 1px solid rgba(0, 0, 0, 0.25);
