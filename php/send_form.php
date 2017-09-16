@@ -1,12 +1,10 @@
 <?php
 if(isset($_POST['email'])) {
 
-    // EDIT THE 2 LINES BELOW AS REQUIRED
     $email_to = "kanified@gmail.com";
     $email_subject = "User from Kane Govaert";
 
     function died($error) {
-        // your error code can go here
         echo "We are very sorry, but there were error(s) found with the form you submitted. ";
         echo "These errors appear below.<br /><br />";
         echo $error."<br /><br />";
@@ -15,7 +13,6 @@ if(isset($_POST['email'])) {
     }
 
 
-    // validation expected data exists
     if(!isset($_POST['first_name']) ||
         !isset($_POST['last_name']) ||
         !isset($_POST['email']) ||
@@ -25,10 +22,10 @@ if(isset($_POST['email'])) {
 
 
 
-    $first_name = $_POST['first_name']; // required
-    $last_name = $_POST['last_name']; // required
-    $email_from = $_POST['email']; // required
-    $comments = $_POST['comments']; // required
+    $first_name = $_POST['first_name'];
+    $last_name = $_POST['last_name'];
+    $email_from = $_POST['email'];
+    $comments = $_POST['comments'];
 
     $error_message = "";
     $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
@@ -70,7 +67,6 @@ if(isset($_POST['email'])) {
     $email_message .= "Email: ".clean_string($email_from)."\n";
     $email_message .= "Comments: ".clean_string($comments)."\n";
 
-// create email headers
 $headers = 'From: '.$email_from."\r\n".
 'Reply-To: '.$email_from."\r\n" .
 'X-Mailer: PHP/' . phpversion();
