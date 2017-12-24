@@ -430,8 +430,9 @@ div.portfolio-item{
 
 .header-five p {
   font-size: 30%;
-  color: white;
+  color: #846d8f;
   margin: 5%;
+  font-family: "Courier New", courier;
 }
 
 #mail{
