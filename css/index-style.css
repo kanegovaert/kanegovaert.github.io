@@ -436,7 +436,7 @@ div.portfolio-item{
 }
 
 #mail{
-  font-size: 30%;
+  font-size: 20% !important;
   color: #846d8f;
   text-decoration: none;
 }
