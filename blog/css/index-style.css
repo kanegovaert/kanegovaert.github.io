@@ -97,6 +97,10 @@ margin-top: -1%;
 }
 
 @media only screen and (max-width: 736px) {
+  
+  .banner{
+  height: 50vh !important;
+  }
   #above-text{
     font-size: 30%;
     padding-top: 10vh;
