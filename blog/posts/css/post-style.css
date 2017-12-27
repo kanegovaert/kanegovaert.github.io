@@ -59,13 +59,12 @@ ul li a:hover{
 h1{
   color: #159957;
   font-size: 45%;
+
 }
 
 .posts-list{
   margin: 2%;
 }
-
-
 
 #info{
   font-size: 10%;
@@ -83,11 +82,6 @@ margin-top: -1%;
 
 .post h1:hover{
   text-decoration: underline;
-  cursor: pointer;
-}
-
-.post-text{
-  margin: 5%;
 }
 
 .post p{
@@ -113,6 +107,12 @@ margin-top: -1%;
   }
 }
 
+
+.post-text p {
+  margin: 5%;
+  font-size: 20%;
+  opacity: 0.8;
+}
 
 .blog{
   margin: 5%;
