@@ -10,6 +10,13 @@ html, body{
 }
 
 
+.social-media-buttons{
+  margin: 5%;
+}
+.social-media-buttons img:hover{
+  cursor: pointer;
+}
+
 .topnav {
   margin-right: 17.5%;
   color: #159957;
@@ -96,7 +103,7 @@ margin-top: -1%;
 }
 
 @media only screen and (max-width: 736px) {
-  
+
   .banner{
   height: 60vh !important;
   }

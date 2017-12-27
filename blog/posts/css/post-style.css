@@ -9,6 +9,14 @@ html, body{
   font-size: 2.5em;
 }
 
+.social-media-buttons{
+  margin: 5%;
+}
+.social-media-buttons img:hover{
+  cursor: pointer;
+}
+
+
 
 .topnav {
   margin-right: 17.5%;
