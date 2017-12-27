@@ -127,6 +127,26 @@ html, body {
 
 @media only screen and (max-width: 736px) {
 
+	  
+  .banner{
+  height: 60vh !important;
+  }
+  #above-text{
+    font-size: 30%;
+    padding-top: 10vh;
+  }
+  #under-text{
+    font-size: 17%;
+    margin: 5vh;
+    margin-top: 3vh;
+  }
+
+  .buttons{
+    margin-top: 1vh !important;
+    font-size: 50% !important;
+  }
+
+
   h1{
     font-size: 60% !important;
   }
