@@ -38,11 +38,10 @@ ul li a:hover{
   width: 100%;
   background-image: linear-gradient(120deg, #155799, #159957);
   color: white;
+  text-align: center;
+
 }
 
-.banner{
-  text-align: center;
-}
 #above-text{
   font-size: 50%;
   padding-top: 3%;
