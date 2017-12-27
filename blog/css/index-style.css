@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+html, body{
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+  font-family: "Open Sans", serif;
+  font-size: 2.5em;
+}
+
+
+.topnav {
+  margin-right: 17.5%;
+  color: #159957;
+  text-align: right;
+  font-size: 15%;
+  margin-bottom: -3%;
+}
+
+
+ul li{
+  display: inline-block;
+
+}
+
+ul li a {
+  text-decoration: none;
+  padding: 6px;
+}
+
+ul li a:hover{
+  text-decoration: underline;
+}
+
+.banner{
+  height: 50vh;
+  width: 100%;
+  background-image: linear-gradient(120deg, #155799, #159957);
+  color: white;
+}
+
+.banner{
+  text-align: center;
+}
+#above-text{
+  font-size: 50%;
+  padding-top: 3%;
+  margin-bottom: 0%;
+  font-weight: bolder;
+}
+#under-text{
+  font-size: 23.5%;
+  padding-top: .1%;
+  margin-bottom: -2%;
+  opacity: 0.9;
+}
+
+h1{
+  color: #159957;
+  font-size: 45%;
+
+}
+
+.posts-list{
+  margin: 2%;
+}
+
+#info{
+  font-size: 10%;
+  font-weight: lighter;
+  opacity: 0.9;
+  color: grey;
+}
+.post h1{
+  color: #1e6bb8;
+font-weight: lighter;
+font-size: 25%;
+opacity: 0.9;
+margin-top: -1%;
+}
+
+.post h1:hover{
+  text-decoration: underline;
+}
+
+.post p{
+  color: black;
+  font-size: 18%;
+  opacity: 0.6;
+}
+
+@media only screen and (max-width: 736px) {
+  #above-text{
+    font-size: 30%;
+    padding-top: 10vh;
+  }
+  #under-text{
+    font-size: 17%;
+    margin: 5vh;
+    margin-top: 3vh;
+  }
+
+  .buttons{
+    margin-top: 2vh !important;
+    font-size: 50% !important;
+  }
+}
+
+
+.blog{
+  margin: 5%;
+}
+#intro{
+  font-size: 19%;
+  opacity: 0.7;
+}
+
+.button {
+  padding: 0.1rem 0.6rem;
+  font-size: 26.5%;
+  display: inline-block;
+margin-bottom: 1rem;
+color: rgba(255,255,255,0.7);
+background-color: rgba(255,255,255,0.08);
+border-color: rgba(255,255,255,0.2);
+border-style: solid;
+border-width: 1px;
+border-radius: 0.3rem;
+transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+  text-decoration: none;
+}
+}
