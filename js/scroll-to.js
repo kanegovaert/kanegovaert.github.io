@@ -22,7 +22,7 @@ function appendText() {
     $(".exit-text").css({"textAlign" : "center"});
 }
 $("#flat-button-two").live('click', function() {
-    scrollTo(".header-three", 2000);
+//    scrollTo(".header-three", 2000);
 });
 
 $("#flat-button-three").live('click', function() {
