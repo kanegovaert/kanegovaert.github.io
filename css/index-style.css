@@ -108,6 +108,12 @@ margin-top: -1%;
   opacity: 0.8;
   margin-bottom: 0px;
 }
+
+#skills{
+  margin: 2%;
+  opacity: 0.8;
+  font-size: 145%;
+}
 @media only screen and (max-width: 736px) {
 
 
@@ -118,6 +124,7 @@ margin-top: -1%;
     display: block !important;
     width: 87% !important;
   }
+
 
   .banner{
   height: 60vh !important;
