@@ -12,7 +12,6 @@ html, body{
 
 .social-media-buttons{
   margin: 5%;
-  margin-top: -5%;
 }
 .social-media-buttons img:hover{
   cursor: pointer;
@@ -109,15 +108,6 @@ margin-top: -1%;
 }
 @media only screen and (max-width: 736px) {
 
-
-  .portfolio-item img{
-    width: 29% !important;
-  }
-  .portfolio-item{
-    display: block !important;
-    width: 87% !important;
-  }
-
   .banner{
   height: 60vh !important;
   }
@@ -146,74 +136,18 @@ margin-top: -1%;
   opacity: 0.7;
 }
 
-.portfolio-item{
-  display: inline-block;
-  overflow: auto;
-  height: 46vh;
-  width: 20%;
-  box-sizing: content-box;
-  margin: 5% 3% 0% 5%;
-  padding: 1%;
-  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
-  -moz-box-shadow:    3px 3px 5px 6px #ccc;
-  box-shadow:         3px 3px 5px 6px #ccc;
-}
-
-.summary{
-  text-align: center;
-  opacity: 0.56;
-  font-size: 15%;
-}
-
-.portfolio-item img {
-  width: 40%;
-  margin-bottom: 0%;
-}
-
-#me-img{
-  width: 25%;
-  border-radius: 50%;
-
-  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
-  -moz-box-shadow:    3px 3px 5px 6px #ccc;
-  box-shadow:         3px 3px 5px 6px #ccc;
-}
-.about-me-img{
-  text-align: center;
-}
-
-.project-image{
-  text-align: center;
-}
-
-.about-me{
-  margin: 5%;
-}
-
-.title {
-  cursor: pointer;
-  font-size: 20%;
-  font-weight: bolder;
-  opacity: 0.67;
-  margin-top: 0%;
-  letter-spacing: 2.5px;
-  text-align: center;
-}
-
-.title:hover{
-  text-decoration: underline;
-}
 .button {
   padding: 0.1rem 0.6rem;
   font-size: 26.5%;
   display: inline-block;
-  margin-bottom: 1rem;
-  color: rgba(255,255,255,0.7);
-  background-color: rgba(255,255,255,0.08);
-  border-color: rgba(255,255,255,0.2);
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 0.3rem;
-  transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+margin-bottom: 1rem;
+color: rgba(255,255,255,0.7);
+background-color: rgba(255,255,255,0.08);
+border-color: rgba(255,255,255,0.2);
+border-style: solid;
+border-width: 1px;
+border-radius: 0.3rem;
+transition: color 0.2s, background-color 0.2s, border-color 0.2s;
   text-decoration: none;
+}
 }
