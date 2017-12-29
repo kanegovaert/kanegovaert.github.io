@@ -122,8 +122,25 @@ margin-top: -1%;
 #skills{
   margin: 2%;
   opacity: 0.8;
-  font-size: 145%;
+  font-size: 110%;
 }
+
+
+@media only screen and (max-width: 1000px) {
+  .portfolio-item{
+    height: 40vh !important;
+    width: 25% !important;
+    margin: 1.6% !important;
+    margin-bottom: 5% !important;
+    font-size: 83%;
+  }
+  .portfolio-item img {
+    width: 40% !important;
+  }
+
+
+}
+
 @media only screen and (max-width: 736px) {
 
   .portfolio-item img{
@@ -208,6 +225,7 @@ input, textarea{
   -webkit-box-shadow: 3px 3px 5px 6px #ccc;
   -moz-box-shadow:    3px 3px 5px 6px #ccc;
   box-shadow:         3px 3px 5px 6px #ccc;
+  transition: opacity ease-in-out 1s;
 }
 .about-me-img{
   text-align: center;
@@ -277,4 +295,8 @@ input, textarea{
 
 #under-text{
   display: inline-block;
+}
+
+#me-img:hover{
+  opacity: 0.95;
 }
