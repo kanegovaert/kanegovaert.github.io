@@ -177,6 +177,7 @@ margin-top: -1%;
   box-shadow:         3px 3px 5px 6px #ccc;
 }
 
+
 .summary{
   text-align: center;
   opacity: 0.56;
@@ -186,6 +187,20 @@ margin-top: -1%;
 .portfolio-item img {
   width: 40%;
   margin-bottom: 0%;
+}
+
+input, textarea{
+  font-size: 0.8em;
+  font-family: 'proxima-nova-soft', sans-serif;
+  border: 1px solid #ddd;
+  background: #fff;
+  padding: 0.9em;
+  transition: all 0.3s ease-in-out;
+  width: 57%;
+}
+
+#submit-email-button{
+  margin-bottom: 5%;
 }
 
 #me-img{
