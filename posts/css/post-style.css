@@ -44,7 +44,9 @@ ul li a:hover{
 .banner{
   height: 50vh;
   width: 100%;
-  background-image: linear-gradient(120deg, #155799, #159957);
+  background: #5C258D;  
+  background: -webkit-linear-gradient(to right, #4389A2, #5C258D); 
+  background: linear-gradient(to right, #4389A2, #5C258D); 
   color: white;
 }
 
