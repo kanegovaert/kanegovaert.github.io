@@ -126,7 +126,6 @@ margin-top: -1%;
 }
 @media only screen and (max-width: 736px) {
 
-
   .portfolio-item img{
     width: 29% !important;
   }
@@ -145,7 +144,6 @@ margin-top: -1%;
   }
   #under-text{
     font-size: 17%;
-    margin: 5vh;
     margin-top: 3vh;
   }
 
