@@ -9,6 +9,9 @@ html, body{
   font-size: 2.5em;
 }
 
+.buttons{
+  margin-top: -4%
+}
 
 .social-media-buttons{
   margin: 5%;
@@ -44,9 +47,9 @@ ul li a:hover{
 .banner{
   height: 50vh;
   width: 100%;
-  background: #5C258D;  
-  background: -webkit-linear-gradient(to right, #4389A2, #5C258D); 
-  background: linear-gradient(to right, #4389A2, #5C258D); 
+  background: #5C258D;
+  background: -webkit-linear-gradient(to right, #4389A2, #5C258D);
+  background: linear-gradient(to right, #4389A2, #5C258D);
   color: #FFF;
   text-align: center;
 
@@ -55,7 +58,7 @@ ul li a:hover{
 #above-text{
   font-size: 50%;
   padding-top: 3%;
-  margin-bottom: 0%;
+  margin-bottom: -4%;
   font-weight: bolder;
 }
 #under-text{
@@ -73,7 +76,12 @@ h1{
 .posts-list{
   margin: 2%;
 }
-
+#copyright{
+  font-size: 10%;
+  float: right;
+  margin-top: 7.6%;
+  opacity: 0.9;
+}
 
 
 #info{
@@ -226,4 +234,34 @@ margin-top: -1%;
   border-radius: 0.3rem;
   transition: color 0.2s, background-color 0.2s, border-color 0.2s;
   text-decoration: none;
+}
+
+
+.typed-cursor {
+        font-size: 30%;
+        opacity: 1;
+        animation: typedjsBlink 0.7s infinite;
+        animation: typedjsBlink 0.7s infinite;
+        animation-name: typedjsBlink;
+        animation-duration: 0.7s;
+        animation-timing-function: initial;
+        animation-delay: initial;
+        animation-iteration-count: infinite !important;
+        animation-direction: initial;
+        animation-fill-mode: initial;
+        animation-play-state: initial;
+    }
+
+     @keyframes typedjsBlink{
+        50% { opacity: 0.0; }
+    }
+
+    @-webkit-keyframes typedjsBlink{
+        0% { opacity: 1; }
+        50% { opacity: 0.0; }
+        100% { opacity: 1; }
+    }
+
+#under-text{
+  display: inline-block;
 }
