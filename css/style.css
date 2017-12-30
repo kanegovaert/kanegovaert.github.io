@@ -251,7 +251,7 @@ h1 {
 }
 @media only screen and (max-width:736px) {
 	.portfolio-item img {
-		width: 29%!important
+		width: 25%!important
 	}
 	.portfolio-item {
 		display: block!important;
