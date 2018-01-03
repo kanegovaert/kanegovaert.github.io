@@ -4,13 +4,16 @@ body, html {
 	padding: 0;
 	height: 100vh;
 	font-family: "Open Sans", serif;
-	font-size: 2.5em
+	font-size: 2.5em;
+}
+.portfolio-items{
+	text-align: center;
 }
 .social-media-buttons {
-	margin: 5%
+	margin: 5%;
 }
 .social-media-buttons img:hover {
-	cursor: pointer
+	cursor: pointer;
 }
 #copyright {
 	font-size: 10%;
@@ -18,24 +21,24 @@ body, html {
 	margin-top: 6.4%;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
 	filter: alpha(opacity=90);
-	opacity: .9
+	opacity: .9;
 }
 .topnav {
 	margin-right: 17.5%;
 	color: #159957;
 	text-align: right;
 	font-size: 15%;
-	margin-bottom: -3%
+	margin-bottom: -3%;
 }
 ul li {
-	display: inline-block
+	display: inline-block;
 }
 ul li a {
 	text-decoration: none;
 	padding: 6px
 }
 ul li a:hover {
-	text-decoration: underline
+	text-decoration: underline;
 }
 .banner {
 	height: 50vh;
@@ -53,16 +56,16 @@ ul li a:hover {
 	background: -o-linear-gradient(to right, #4389a2, #5c258d);
 	filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr=#4389a2, EndColorStr=#5c258d)";
 	background: linear-gradient(to right, #4389a2, #5c258d);
-	color: #fff
+	color: #fff;
 }
 .banner {
-	text-align: center
+	text-align: center;
 }
 #above-text {
 	font-size: 50%;
 	padding-top: 3%;
 	margin-bottom: 0;
-	font-weight: bolder
+	font-weight: bolder;
 }
 #under-text {
 	font-size: 23.5%;
@@ -70,15 +73,15 @@ ul li a:hover {
 	margin-bottom: -2%;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
 	filter: alpha(opacity=90);
-	opacity: .9
+	opacity: .9;
 }
 .post-text h1 {
 	color: #159957;
 	font-size: 45%;
-	margin: 5%
+	margin: 5%;
 }
 .posts-list {
-	margin: 2%
+	margin: 2%;
 }
 #info {
 	font-size: 10%;
@@ -86,7 +89,7 @@ ul li a:hover {
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
 	filter: alpha(opacity=90);
 	opacity: .9;
-	color: grey
+	color: grey;
 }
 .post h1 {
 	color: #1e6bb8;
@@ -95,52 +98,39 @@ ul li a:hover {
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
 	filter: alpha(opacity=90);
 	opacity: .9;
-	margin-top: -1%
+	margin-top: -1%;
 }
 .post h1:hover {
-	text-decoration: underline
+	text-decoration: underline;
 }
 .post p {
 	color: #000;
 	font-size: 18%;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
 	filter: alpha(opacity=60);
-	opacity: .6
+	opacity: .6;
 }
 .button:hover {
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
 	filter: alpha(opacity=70);
-	opacity: .7
+	opacity: .7;
 }
-@media only screen and (max-width:736px) {
-	#above-text {
-		font-size: 30%;
-		padding-top: 10vh
-	}
-	#under-text {
-		font-size: 17%;
-		margin-top: 3vh
-	}
-	.buttons {
-		margin-top: 2vh !important;
-		font-size: 50% !important
-	}
-}
+
 .post-text p {
 	margin: 5%;
 	font-size: 20%;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
 	filter: alpha(opacity=80);
-	opacity: .8
+	opacity: .8;
 }
 .blog {
-	margin: 5%
+	margin: 5%;
 }
 #intro {
 	font-size: 19%;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
 	filter: alpha(opacity=70);
-	opacity: .7
+	opacity: .7;
 }
 .button {
 	padding: .1rem .6rem;
@@ -163,7 +153,7 @@ ul li a:hover {
 	-webkit-transition: opacity 450ms ease-in-out;
 	-moz-transition: opacity 450ms ease-in-out;
 	-o-transition: opacity 450ms ease-in-out;
-	transition: opacity 450ms ease-in-out
+	transition: opacity 450ms ease-in-out;
 }
 body, html {
 	margin: 0;
@@ -173,14 +163,14 @@ body, html {
 	font-size: 2.5em
 }
 .buttons {
-	margin-top: -4%
+	margin-top: -4%;
 }
 .social-media-buttons {
 	margin: 5%;
-	margin-top: -5%
+	margin-top: -5%;
 }
 .social-media-buttons img:hover {
-	cursor: pointer
+	cursor: pointer;
 }
 .topnav {
 	margin-right: 17.5%;
@@ -190,14 +180,14 @@ body, html {
 	margin-bottom: -3%
 }
 ul li {
-	display: inline-block
+	display: inline-block;
 }
 ul li a {
 	text-decoration: none;
 	padding: 6px
 }
 ul li a:hover {
-	text-decoration: underline
+	text-decoration: underline;
 }
 .banner {
 	height: 50vh;
@@ -216,13 +206,13 @@ ul li a:hover {
 	filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr=#4389a2, EndColorStr=#5c258d)";
 	background: linear-gradient(to right, #4389a2, #5c258d);
 	color: #fff;
-	text-align: center
+	text-align: center;
 }
 #above-text {
 	font-size: 50%;
 	padding-top: 3%;
 	margin-bottom: -4%;
-	font-weight: bolder
+	font-weight: bolder;
 }
 #under-text {
 	font-size: 23.5%;
@@ -230,14 +220,14 @@ ul li a:hover {
 	margin-bottom: -2%;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
 	filter: alpha(opacity=90);
-	opacity: .9
+	opacity: .9;
 }
 h1 {
 	color: #159957;
-	font-size: 45%
+	font-size: 45%;
 }
 .posts-list {
-	margin: 2%
+	margin: 2%;
 }
 #copyright {
 	font-size: 10%;
@@ -245,7 +235,7 @@ h1 {
 	margin-top: 7.6%;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
 	filter: alpha(opacity=90);
-	opacity: .9
+	opacity: .9;
 }
 #info {
 	font-size: 10%;
@@ -253,7 +243,7 @@ h1 {
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
 	filter: alpha(opacity=90);
 	opacity: .9;
-	color: grey
+	color: grey;
 }
 .post h1 {
 	color: #1e6bb8;
@@ -262,81 +252,45 @@ h1 {
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
 	filter: alpha(opacity=90);
 	opacity: .9;
-	margin-top: -1%
+	margin-top: -1%;
 }
 .post h1:hover {
 	text-decoration: underline;
-	cursor: pointer
+	cursor: pointer;
 }
 .post-text {
-	margin: 5%
+	margin: 5%;
 }
 .about-me-text, .post p {
 	color: #000;
 	font-size: 18%;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
 	filter: alpha(opacity=60);
-	opacity: .6
+	opacity: .6;
 }
 .about-me-text {
 	margin: 5%;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
 	filter: alpha(opacity=80);
 	opacity: .8;
-	margin-bottom: 0
+	margin-bottom: 0;
 }
 #skills {
 	margin: 2%;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
 	filter: alpha(opacity=80);
 	opacity: .8;
-	font-size: 110%
+	font-size: 110%;
 }
-@media only screen and (max-width:1000px) {
-	.portfolio-item {
-		height: 40vh !important;
-		width: 25% !important;
-		margin: 1.6% !important;
-		margin-bottom: 5% !important;
-		font-size: 83%;
-		margin: 5% auto 7% auto !important
-	}
-	.portfolio-item img {
-		width: 40% !important
-	}
-}
-@media only screen and (max-width:736px) {
-	.portfolio-item img {
-		width: 25% !important
-	}
-	.portfolio-item {
-		display: block !important;
-		width: 87% !important
-	}
-	.banner {
-		height: 60vh !important
-	}
-	#above-text {
-		font-size: 30%;
-		padding-top: 10vh
-	}
-	#under-text {
-		font-size: 17%;
-		margin-top: 3vh
-	}
-	.buttons {
-		margin-top: 1vh !important;
-		font-size: 50% !important
-	}
-}
+
 .blog {
-	margin: 5%
+	margin: 5%;
 }
 #intro {
 	font-size: 19%;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
 	filter: alpha(opacity=70);
-	opacity: .7
+	opacity: .7;
 }
 .portfolio-item {
 	display: inline-block;
@@ -349,18 +303,18 @@ h1 {
 	padding: 1%;
 	-webkit-box-shadow: 3px 3px 5px 6px #ccc;
 	-moz-box-shadow: 3px 3px 5px 6px #ccc;
-	box-shadow: 3px 3px 5px 6px #ccc
+	box-shadow: 3px 3px 5px 6px #ccc;
 }
 .summary {
 	text-align: center;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=56)";
 	filter: alpha(opacity=56);
 	opacity: .56;
-	font-size: 15%
+	font-size: 15%;
 }
 .portfolio-item img {
 	width: 40%;
-	margin-bottom: 0
+	margin-bottom: 0;
 }
 input, textarea {
 	font-size: .8em;
@@ -372,10 +326,10 @@ input, textarea {
 	-moz-transition: all .3s ease-in-out;
 	-o-transition: all .3s ease-in-out;
 	transition: all .3s ease-in-out;
-	width: 57%
+	width: 57%;
 }
 #submit-email-button {
-	margin-bottom: 5%
+	margin-bottom: 5%;
 }
 #me-img {
 	width: 25%;
@@ -388,16 +342,16 @@ input, textarea {
 	-webkit-transition: opacity ease-in-out 1s;
 	-moz-transition: opacity ease-in-out 1s;
 	-o-transition: opacity ease-in-out 1s;
-	transition: opacity ease-in-out 1s
+	transition: opacity ease-in-out 1s;
 }
 .about-me-img {
-	text-align: center
+	text-align: center;
 }
 .project-image {
-	text-align: center
+	text-align: center;
 }
 .about-me {
-	margin: 5%
+	margin: 5%;
 }
 .title {
 	cursor: pointer;
@@ -408,10 +362,10 @@ input, textarea {
 	opacity: .67;
 	margin-top: 0;
 	letter-spacing: 2.5px;
-	text-align: center
+	text-align: center;
 }
 .title:hover {
-	text-decoration: underline
+	text-decoration: underline;
 }
 .button {
 	padding: .1rem .6rem;
@@ -451,7 +405,7 @@ input, textarea {
 	animation-duration: .7s;
 	animation-timing-function: initial;
 	animation-delay: initial;
-	animation-iteration-count: infinite !important;
+	animation-iteration-count: infinite; /* used to have */
 	animation-direction: initial;
 	animation-fill-mode: initial;
 	animation-play-state: initial
@@ -464,4 +418,79 @@ input, textarea {
 	filter: alpha(opacity=95);
 	opacity: .95
 }
+@media only screen and (max-width:1000px) {
+	.portfolio-item {
+		height: 52vh;
+		width: 25%;
+		margin: 1.6%;
+		margin-bottom: 5%;
+		font-size: 83%;
+		margin: 5% auto 7% auto;
+	}
+	.portfolio-item img {
+		width: 40%;
+	}
+}
+@media only screen and (max-width:736px) {
+	.portfolio-item img {
+		width: 25%;
+	}
+	.portfolio-item {
+		display: block;
+		width: 87%;
+	}
+	.banner {
+		height: 60vh;
+	}
+	#above-text {
+		font-size: 30%;
+		padding-top: 10vh;
+	}
+	#under-text {
+		font-size: 17%;
+		margin-top: 3vh;
+	}
+	.buttons {
+		margin-top: 1vh;
+		font-size: 50%;
+	}
+}
 
+@media only screen and (max-width:736px) {
+	#above-text {
+		font-size: 30%;
+		padding-top: 10vh
+	}
+	#under-text {
+		font-size: 17%;
+		margin-top: 3vh;
+	}
+	.buttons {
+		margin-top: 2vh;
+		font-size: 50%;
+	}
+}
+
+@media only screen and (max-height: 463px){
+	.banner{
+		height: 70vh;
+	}
+}
+
+@media only screen and (max-height: 399px){
+	.banner{
+		height: 80vh;
+	}
+}
+
+@media only screen and (max-height: 346px){
+	.banner{
+		height: 95vh;
+	}
+}
+
+@media only screen and (max-height: 283px){
+	.banner{
+		height: 120vh;
+	}
+}
