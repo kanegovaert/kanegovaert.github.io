@@ -390,6 +390,11 @@ input, textarea {
 	-o-transition: ease-in-out opacity 450ms;
 	transition: ease-in-out opacity 450ms
 }
+
+#info{
+	text-align: left;
+}
+
 .button:hover {
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
 	filter: alpha(opacity=70);
