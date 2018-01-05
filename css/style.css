@@ -425,7 +425,7 @@ input, textarea {
 }
 @media only screen and (max-width:1000px) {
 	.portfolio-item {
-		height: 52vh;
+		height: 47vh;
 		width: 25%;
 		margin: 1.6%;
 		margin-bottom: 5%;
