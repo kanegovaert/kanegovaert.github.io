@@ -691,4 +691,24 @@ html > body div#customer-review-one {
   html > body div#customer-review-one {
     height: 31%;
   }
+  
+  html > body div.third {
+    height: 410%;
+  }
+  
+  html > body div.customer-review {
+    height: 31%;
+  }
+  
+  html > body div.fourth {
+  height: 360%;
+  }
+  
+  html > body div.fifth { 
+  height: 65%;
+  }
+  
+  html > body div.sixth {
+    height: 40%;
+  }
 }
