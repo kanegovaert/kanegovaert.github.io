@@ -666,3 +666,29 @@ html > body div#customer-review-one {
     height: 346%;
   }
 }
+
+@media only screen and (max-width:310px) {
+  html > body div.background-image-top {
+  height: 112%;
+  }
+  
+  html > body > div.background-image-top .content{
+    top: 51.2%;
+  }
+  
+  html > body div.second {
+    height: 245%;
+  }
+  
+  html > body p#projects-summary {
+    padding: 4% 10%;
+  }
+  
+  html > body div.content-section {
+    height: 115vh;
+  }
+  
+  html > body div#customer-review-one {
+    height: 31%;
+  }
+}
