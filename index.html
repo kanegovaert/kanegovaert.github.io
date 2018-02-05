@@ -104,7 +104,7 @@
 
       <div class="content-section">
         <div class="text-section">
-          <h1>Projects</h1>
+          <h1 id="text-section-title">Projects</h1>
           <p id="projects-summary">Words don't say a lot. Anybody can claim that they have been writing code for a long time. That's why I have proof. You can check my github and see all my open source projects!</p>
         </div>
         <div class="image">
@@ -123,7 +123,7 @@
         </div>
 
         <div class="text-section">
-          <h1>Responsive</h1>
+          <h1 id="text-section-title">Responsive</h1>
           <p id="projects-summary">Your company needs to be everywhere. That's why I specialize in responsive design so your website works on any given platform for the best user experience available.</p>
         </div>
       </div>
@@ -213,11 +213,41 @@
     <div class="section-header">
       <h1 class="title">Let's Make Your Dreams Come True!</h1>
       <p class="title-sub">I am currently taking on new projects! <br>If you have an idea please take a small amount of time to tell me about it!</p>
-      <a class="button" href="#">Contact Me</a>
+      <a class="button" href="#" href="javascript:void(0);" id="mpopupLink">Contact Me</a>
+
+      <div id="mpopupBox" class="mpopup">
+    <!-- mPopup content -->
+    <div class="modalbox">
+        <div class="modalbox-head">
+            <span class="close">×</span>
+            <h2>Contact me</h2>
+        </div>
+        <div class="modalbox-main">
+          <form action="https://formspree.io/contact@kanegovaert.com"
+               method="POST">
+             <input id="text-area-one" placeholder="Your email"type="text" name="name"><br>
+             <input placeholder="Your message" id="text-area" type="email" name="_replyto"><br>
+             <input id="send-mail-button" type="submit" value="Send">
+         </form>
+        </div>
+        <div class="modalbox-foot">
+        </div>
+    </div>
+</div>
     </div>
   </div>
 
-  <div class="sixth"><br><br><br><br><br><br><br>
+  <div class="sixth">    <br><br><br>
+    <div class="social-media-buttons">
+<img onclick="location.href='https://github.com/kanegovaert'" src="images/badges/github.PNG" alt="Github Account">
+<img onclick="location.href='https://instagram.com/kanegovaert'" src="images/badges/ig.PNG" alt="Instagram Account">
+<img onclick="location.href='https://linkedin.com/in/kanegovaert'" src="images/badges/linkedin-logo.PNG" alt="Linkedin Account">
+<img onclick="location.href='https://twitter.com/kanegovaert'" src="images/badges/twitter.PNG" alt="Twitter Account">
+<p id="copyright">© 2018 <a href="mailto:contact@kanegovaert.com?subject=feedback">Kane Govaert</a></p>
+
+
+</div>
+
   <span>Copyright (c) 2017 Copyright Holder All Rights Reserved.</span>
   </div>
   <script type="text/javascript">
@@ -241,6 +271,35 @@
     strongPointsFadedIn = false;
   </script>
 <script type="text/javascript" src="js/fadein.js">
+
+</script>
+
+<script type="text/javascript">
+// get the mPopup
+var mpopup = document.getElementById('mpopupBox');
+
+// get the link that opens the mPopup
+var mpLink = document.getElementById("mpopupLink");
+
+// get the close action element
+var close = document.getElementsByClassName("close")[0];
+
+// open the mPopup once the link is clicked
+mpLink.onclick = function() {
+  mpopup.style.display = "block";
+}
+
+// close the mPopup once close element is clicked
+close.onclick = function() {
+  mpopup.style.display = "none";
+}
+
+// close the mPopup when user clicks outside of the box
+window.onclick = function(event) {
+  if (event.target == mpopup) {
+      mpopup.style.display = "none";
+  }
+}
 
 </script>
 
