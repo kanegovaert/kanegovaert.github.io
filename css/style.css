@@ -223,7 +223,7 @@ html > body div.second {
 
 html > body div.third{
  width: 100%;
- height: 218%;
+ height: 227%;
  background-color: #eee;
 }
 
@@ -319,6 +319,7 @@ html > body img#macbook {
 	-webkit-box-shadow: 3px 3px 5px 6px #ccc;
 	-moz-box-shadow: 3px 3px 5px 6px #ccc;
 	box-shadow: 3px 3px 5px 6px #ccc;
+	/*! border: solid #252a30 1px; */
 }
 .summary-portfolio {
 	text-align: center;
@@ -540,6 +541,10 @@ html > body div#customer-review-one {
 }
 
 @media only screen and (max-width:736px) {
+
+  html > body > .background-image-top div#image {
+    margin-top: 25%;
+  }
   html > body input#text-area-one {
   width: 84%;
   margin-top: 20%;
