@@ -250,7 +250,7 @@ html > body > div.content-section > div.text-section h1, html > body > div.conte
 html > body p#projects-summary{
  opacity: 0.9;
  font-size: 120%;
- padding: 5% 24%;
+ padding: 5% 15%;
 }
 
 html > body div.customer-review {
@@ -454,7 +454,7 @@ html > body a.button:hover {
   }
 
   html > body div.content-section {
-    height: 132vh;
+    height: 108vh;
   }
   html > body > div.third div.text-section {
     clear: left;
@@ -469,7 +469,7 @@ html > body a.button:hover {
   }
 
   html > body div.third {
-    height: 434%;
+    height: 387%;
   }
 
   html > body div.customer-review {
@@ -477,7 +477,7 @@ html > body a.button:hover {
   }
 
   html > body div.fourth {
-    height: 351%;
+    height: 362%;
     width: 100%;
   }
 
