@@ -197,13 +197,8 @@ html > body div.section-header p, html > body div.section-header h1{
  color: black;
  opacity: 0.7;
  letter-spacing: 1px;
- font-size: 110%;
+ font-size: 107%;
  text-align: center;
-}
-
-html > body div.section-header h1#text-section-title {
-  font-size: 180%;
-  margin-bottom: -4%;
 }
 
 html > body > div.second > div.my-strong-points {
@@ -223,7 +218,7 @@ html > body div.second {
 
 html > body div.third{
  width: 100%;
- height: 227%;
+ height: 218%;
  background-color: #eee;
 }
 
@@ -311,7 +306,7 @@ html > body img#macbook {
 	display: inline-block;
 	overflow: hidden;
 	height: 50vh;
-	width: 23.1%;
+	width: 20%;
 	-moz-box-sizing: content-box;
 	box-sizing: content-box;
 	margin: 5% 3% 0 5%;
@@ -319,7 +314,6 @@ html > body img#macbook {
 	-webkit-box-shadow: 3px 3px 5px 6px #ccc;
 	-moz-box-shadow: 3px 3px 5px 6px #ccc;
 	box-shadow: 3px 3px 5px 6px #ccc;
-	/*! border: solid #252a30 1px; */
 }
 .summary-portfolio {
 	text-align: center;
@@ -331,11 +325,6 @@ html > body img#macbook {
 .portfolio-item img {
 	width: 34%;
 	margin-bottom: 0;
-}
-
-div.social-media-buttons img {
-  width: 10%;
-  margin: 4%;
 }
 
 #info {
@@ -392,7 +381,7 @@ html > body > div.fifth h1.title {
 }
 
 html > body div.sixth {
-  height: 30%;
+  height: 35%;
   width: 100%;
   background-color: #252a30;
   text-align: center;
@@ -400,12 +389,10 @@ html > body div.sixth {
   display: inline-block;
   padding-top: 6px;
   position: relative;
-  overflow: hidden;
 }
 html > body > div.sixth span {
   vertical-align: bottom;
   display: inline-block;
-  opacity: 0.7;
 }
 
 .social-media-buttons {
@@ -434,124 +421,9 @@ html > body a.button:hover {
 
 }
 
-.mpopup {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    padding-top: 100px;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0,0.4);
-}
-.modalbox {
-    position: relative;
-    background-color: #fefefe;
-    margin: auto;
-    padding: 0;
-    width: 60%;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0),0 6px 20px 0 rgba(0,0,0,1);
-    -webkit-animation-name: animatetop;
-    -webkit-animation-duration: 0.4s;
-    animation-name: animatetop;
-    animation-duration: 0.4s;
-    height: 56%;
-}
 
-.modalbox-head {
-    padding: 2px 16px;
-    background-color: black;
-    color: white;
-}
-.modalbox-main {padding: 2px 16px;}
-.modalbox-foot {
-    padding: 2px 16px;
-    /*! background-color: #ff0000; */
-    color: #ffffff;
-}
-
-/* add animation effects */
-@-webkit-keyframes animatetop {
-    from {top:-300px; opacity:0}
-    to {top:0; opacity:1}
-}
-
-@keyframes animatetop {
-    from {top:-300px; opacity:0}
-    to {top:0; opacity:1}
-}
-
-/* close button style */
-.close {
-    color: white;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-}
-.close:hover, .close:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-html > body input#text-area-one {
-  height: 15%;
-  padding: 0.9em;
-  margin-top: 2%;
-  width: 32;
-}
-
-html > body input#text-area {
-  padding: 5.3em 5.3em;
-  margin-top: 2%
-}
-
-html > body input#send-mail-button {
-  border: 2px solid black;
-  border-radius: 0%;
-  text-decoration: none;
-  color: black;
-  transition: all 300ms ease-in-out;
-  font-size: 105%;
-  width: 14em;
-  display: inline-block;
-  line-height: 34px;
-  margin-top: 2%;
-}
-
-html > body input#send-mail-button:hover {
-  color: white;
-  background-color: black;
-}
-
-.social-media-buttons {
-    margin: 5%;
-        margin-top: 5%;
-    margin-top: -5%;
-}
-.social-media-buttons {
-    margin: 5%;
-}
-
-html > body div#customer-review-one {
-  height: 22%;
-}
 
 @media only screen and (max-width:736px) {
-  
-  html > body > .background-image-top div#image {
-    margin-top: 11%;
-  }
-  html > body input#text-area-one {
-  width: 84%;
-  margin-top: 20%;
-  }
-  html > body input#text-area {
-    padding: 5.3em 2.3em;
-  }
   html > body > div.background-image-top img#logo {
     width: 80%;
   }
@@ -569,7 +441,7 @@ html > body div#customer-review-one {
   }
 
   html > body div.second {
-    height: 150%;
+    height: 215%;
   }
 
   html > body > div.second > div.my-strong-points div.strong-point {
@@ -582,7 +454,7 @@ html > body div#customer-review-one {
   }
 
   html > body div.content-section {
-    height: 92vh;
+    height: 132vh;
   }
   html > body > div.third div.text-section {
     clear: left;
@@ -597,15 +469,15 @@ html > body div#customer-review-one {
   }
 
   html > body div.third {
-    height: 296%;
+    height: 434%;
   }
 
   html > body div.customer-review {
-    height: 19%;
+    height: 29%;
   }
 
   html > body div.fourth {
-    height: 348%;
+    height: 351%;
     width: 100%;
   }
 
@@ -619,96 +491,11 @@ html > body div#customer-review-one {
   }
 
   html > body div.fifth {
-    font-size: 70%;
-
-    height: 44%;
-    /*! padding: 18%; */
+    font-size: 70%
   }
 
   html > body div.sixth {
     font-size: 75%;
   }
 
-}
-
-@media only screen and (max-width:396px) {
-  html > body div.fourth {
-    height: 356%;
-  }
-}
-
-@media only screen and (max-width:452px) {
- html > body div.fourth {
-    height: 364%;
-  }
-}
-
-@media only screen and (max-width:500px) {
- html > body div.fourth {
-    height: 369%;
-  }
-}
-
-@media only screen and (max-width:600px) {
- html > body div.fourth {
-    height: 374%;
-  }
-}
-
-@media only screen and (max-width:700px) {
- html > body div.fourth {
-    height: 380%;
-  }
-}
-
-@media only screen and (max-width:800px) {
- html > body div.fourth {
-    height: 346%;
-  }
-}
-
-@media only screen and (max-width:310px) {
-  html > body div.background-image-top {
-  height: 112%;
-  }
-  
-  html > body > div.background-image-top .content{
-    top: 51.2%;
-  }
-  
-  html > body div.second {
-    height: 245%;
-  }
-  
-  html > body p#projects-summary {
-    padding: 4% 10%;
-  }
-  
-  html > body div.content-section {
-    height: 115vh;
-  }
-  
-  html > body div#customer-review-one {
-    height: 31%;
-  }
-  
-  html > body div.third {
-    height: 414%;
-  }
-  
-  html > body div.customer-review {
-    height: 31%;
-  }
-  
-  html > body div.fourth {
-  height: 360%;
-  }
-  
-  html > body div.fifth { 
-  height: 65%;
-  }
-  
-  html > body div.sixth {
-    height: 40%;
-  }
 }
