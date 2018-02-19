@@ -11,6 +11,10 @@ body, html {
  color: #777;
 }
 
+html > body .portfolio-items{
+  text-align: center;
+}
+
 
 
 html > body div.background-image-top {

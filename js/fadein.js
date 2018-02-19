@@ -7,7 +7,7 @@ $(window).scroll(function () {
 
 function fadeInArea(selector) {
   if ($(window).scrollTop() >= ($(selector).height() - $(window).height()) + 150) {
-      $(selector).css('visibility', 'visible').hide().fadeIn(200);
+      $(selector).css('visibility', 'visible').hide().fadeIn(600);
       $(this).off('scroll');
       return true;
     }

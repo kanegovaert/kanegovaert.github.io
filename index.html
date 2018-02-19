@@ -213,9 +213,30 @@
     <div class="section-header">
       <h1 class="title">Let's Make Your Dreams Come True!</h1>
       <p class="title-sub">I am currently taking on new projects! <br>If you have an idea please take a small amount of time to tell me about it!</p>
-      <a class="button" href="#">Contact Me</a>
+      <a class="button" href="">Contact Me</a>
+      <div id="mpopupBox" class="mpopup">
+         <div class="modalbox">
+             <div class="modalbox-head">
+                 <span class="close">×</span>
+                 <h2>Contact me</h2>
+             </div>
+             <div class="modalbox-main">
+               <form action="https://formspree.io/contact@kanegovaert.com"
+                    method="POST">
+                  <input id="text-area-one" placeholder="Your email"type="text" name="name"><br>
+                  <input placeholder="Your message" id="text-area" type="email" name="_replyto"><br>
+                  <input id="send-mail-button" type="submit" value="Send">
+              </form>
+             </div>
+             <div class="modalbox-foot">
+             </div>
+         </div>
+     </div>
+
     </div>
   </div>
+
+
 
   <div class="sixth"><br><br><br><br><br><br><br>
   <span>Copyright (c) 2017 Copyright Holder All Rights Reserved.</span>
@@ -244,4 +265,27 @@
 
 </script>
 
+
+<script type="text/javascript">
+// get the mPopup
+var mpopup = document.getElementById('mpopupBox');
+// get the link that opens the mPopup
+var mpLink = document.getElementById("mpopupLink");
+// get the close action element
+var close = document.getElementsByClassName("close")[0];
+// open the mPopup once the link is clicked
+mpLink.onclick = function() {
+  mpopup.style.display = "block";
+}
+// close the mPopup once close element is clicked
+close.onclick = function() {
+  mpopup.style.display = "none";
+}
+// close the mPopup when user clicks outside of the box
+window.onclick = function(event) {
+  if (event.target == mpopup) {
+      mpopup.style.display = "none";
+  }
+}
+</script>
 </html>
