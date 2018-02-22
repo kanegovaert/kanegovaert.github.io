@@ -15,6 +15,24 @@ html > body .portfolio-items{
   text-align: center;
 }
 
+html > body .md-content {
+  text-align: center;
+}
+
+html > body .md-content li {
+  list-style-type: none;
+}
+
+html > body #button-submit, html > body #button-close {
+  background-color: #E08A1E;
+  border: none;
+}
+
+html > body .my-modalbox {
+  background-color:  #FAA945;
+  color: #000;
+}
+
 
 
 html > body div.background-image-top {
@@ -79,7 +97,7 @@ h3 {
  color: #111;
 }
 
-html > body > div.background-image-top .container {
+html > body > div.background-image-top .container-content {
  height: 100vh;
  padding: 20px;
  text-align: center;
@@ -101,12 +119,12 @@ html > body > div.background-image-top .content {
 html > body > div.background-image-top .content:hover{
  opacity: 1;
 }
-html > body > div.background-image-top div.container div.content p {
+html > body > div.background-image-top div.container-content div.content p {
  color: white;
  font-size: 120%;
 }
 
-html > body > div.background-image-top > div.container.content  {
+html > body > div.background-image-top > div.container-content.content  {
  opacity: 0.8
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -407,7 +425,7 @@ html > body > div.sixth span {
 	cursor: pointer;
 }
 
-html > body a.button {
+html > body .button {
   border: 2px solid black;
   border-radius: 0%;
   text-decoration: none;
@@ -417,9 +435,10 @@ html > body a.button {
   width: 15em;
   display: inline-block;
   line-height: 37px;
+  background-color: #FF9900;
 }
 
-html > body a.button:hover {
+html > body .button:hover {
    color: #FF9900;
   background-color: black;
 
@@ -436,7 +455,7 @@ html > body a.button:hover {
     font-size: 140%;
   }
 
-  html > body > div.background-image-top div.container div.content p {
+  html > body > div.background-image-top div.container-content div.content p {
     font-size: 86%;
   }
 

@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   	<title>Kane Govaert || Full-Stack developer</title>
   	<link href="css/style.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="css/component.css">
   	<meta charset="UTF-8">
   	<link href="../favicon.ico" rel="icon" type="image/x-icon">
   	<meta content="Software and website developer that makes your ideas come true" name="description">
@@ -39,7 +39,7 @@
       <div id="image" class="border"><img id="logo"src="images/logo.png" alt="Kane Govaert's logo"></div>
       <span class="border"><s class="other-text-top">Hi, I am </s><s id="name">Kane</s> <s class="other-text-top">& I develop</s></span>
       <br><span class="border" id="under-text"></span>
-      <div class="container border">
+      <div class="container-content border">
     <div class="content">
     <p>Learn more about what I do</p>
     <svg id="more-arrows">
@@ -213,8 +213,10 @@
     <div class="section-header">
       <h1 class="title">Let's Make Your Dreams Come True!</h1>
       <p class="title-sub">I am currently taking on new projects! <br>If you have an idea please take a small amount of time to tell me about it!</p>
-      <a class="button" href="">Contact Me</a>
+      <button class="button md-trigger" data-modal="modal-1">Contact Me</button>
 
+
+      <div class="md-overlay"></div>
 
     </div>
   </div>
@@ -224,6 +226,29 @@
   <div class="sixth"><br><br><br><br><br><br><br>
   <span>Copyright (c) 2017 Copyright Holder All Rights Reserved.</span>
   </div>
+
+  <div class="md-modal md-effect-1" id="modal-1">
+
+    <div class="md-content my-modalbox">
+      <h3>Contact Me</h3>
+      <div>
+        <p>Tell me about your current project</p>
+        <ul>
+            <form action="https://formspree.io/contact@kanegovaert.com"
+            method="POST">
+            <ul>
+
+        <li>  <input type="text" placeholder="Your message..." name="name"></li>
+        <li>  <input type="email" placeholder="yourmail@mail.com" name="_replyto"></li>
+        <li>  <input type="submit" id="button-submit" class="button" value="Send"></li>
+        </ul>
+
+          </form>
+        <button id="button-close" class="button md-close">Close</button>
+      </div>
+    </div>
+  </div>
+
   <script type="text/javascript">
   function typeIndex(){
   var typed = new Typed("#under-text", {
@@ -248,5 +273,15 @@
 
 </script>
 
+<script type="text/javascript" src='js/modalEffects.js'>
+</script>
+
+<script type="text/javascript" src='modernizr.custom.js'>
+
+</script>
+
+<script type="text/javascript" src='js/classie.js'>
+
+</script>
 
 </html>
