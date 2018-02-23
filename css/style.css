@@ -460,6 +460,10 @@ html > body .button:hover {
     width: 80%;
   }
 
+  html > body > .background-image-top div#image {
+    margin-top: 15%;
+  }
+
   html > body .button {
     width: 30em;
   }
