@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,700,800');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,800');
- @import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Lato');
 
 body, html {
  height: 100%;
@@ -9,6 +9,12 @@ body, html {
  width: 100%;
  font: 400 15px/1.8 "Lato", sans-serif;
  color: #777;
+}
+html > body div#modalbox {
+  height: 70vh;
+}
+html > body input.email-form-input-area {
+  width: 82%;
 }
 
 html > body .portfolio-items{
@@ -65,6 +71,9 @@ html > body div.background-image-top {
  color: white;
 }
 
+html > body input#mail-body {
+  height: 93px;
+}
 html > body  div.caption {
  position: absolute;
  left: 0;
@@ -313,7 +322,7 @@ html > body div.content-section {
 
 html > body > div.third div.section-header{
   background-color: #eee;
-  height: 211vh;
+  height: 210vh;
 }
 
 html > body img#responsive {
@@ -451,6 +460,10 @@ html > body .button:hover {
     width: 80%;
   }
 
+  html > body .button {
+    width: 30em;
+  }
+
   html > body > div.background-image-top span.border{
     font-size: 140%;
   }
@@ -464,7 +477,7 @@ html > body .button:hover {
   }
 
   html > body div.second {
-    height: 215%;
+    height: 152%;
   }
 
   html > body > div.second > div.my-strong-points div.strong-point {
@@ -477,7 +490,7 @@ html > body .button:hover {
   }
 
   html > body div.content-section {
-    height: 108vh;
+    height: 80vh;
   }
   html > body > div.third div.text-section {
     clear: left;
@@ -492,11 +505,11 @@ html > body .button:hover {
   }
 
   html > body div.third {
-    height: 387%;
+    height: 272%;
   }
 
   html > body div.customer-review {
-    height: 29%;
+    height: 19%;
   }
 
   html > body div.fourth {

@@ -229,7 +229,7 @@
 
   <div class="md-modal md-effect-1" id="modal-1">
 
-    <div class="md-content my-modalbox">
+    <div id="modalbox" class="md-content my-modalbox">
       <h3>Contact Me</h3>
       <div>
         <p>Tell me about your current project</p>
@@ -237,9 +237,8 @@
             <form action="https://formspree.io/contact@kanegovaert.com"
             method="POST">
             <ul>
-
-        <li>  <input type="text" placeholder="Your message..." name="name"></li>
-        <li>  <input type="email" placeholder="yourmail@mail.com" name="_replyto"></li>
+        <li>  <input class="email-form-input-area" type="email" placeholder="yourmail@mail.com" name="_replyto"></li>
+        <li>  <input id="mail-body" class="email-form-input-area" type="text" placeholder="Your message..." name="name"></li>
         <li>  <input type="submit" id="button-submit" class="button" value="Send"></li>
         </ul>
 
