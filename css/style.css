@@ -539,3 +539,38 @@ html > body .button:hover {
   }
 
 }
+
+
+@media only screen and (max-width:646px) {
+  html > body div.second {
+    height: 105%;
+  }
+
+  html > body div.content-section {
+    height: 30%;
+  }
+
+  html > body div.third {
+    height: 230%;
+  }
+
+  .portfolio-item {
+    height: 20%;
+  }
+
+  html > body div.fourth {
+    height: 270%;
+  }
+
+  html > body div.fifth {
+    height: 35%;
+  }
+
+  html > body div.customer-review {
+    height: 14%;
+  }
+
+  html > body div.third {
+    height: 220%;
+  }
+}
