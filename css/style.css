@@ -574,3 +574,52 @@ html > body .button:hover {
     height: 220%;
   }
 }
+
+@media only screen and (max-width: 480px) {
+  html > body div.second {
+    height: 150%;
+  }
+  html > body div.third {
+    height: 281%;
+  }
+  html > body div.customer-review {
+    height: 20%;
+  }
+
+  html > body div.content-section {
+    height: 39%;
+  }
+
+  html > body div.fourth {
+    height: 330%;
+  }
+
+  html > body div.fifth {
+    height: 48%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  html > body div.second {
+    height: 170%;
+  }
+  html > body div.content-section {
+    height: 44%;
+  }
+
+  html > body div.customer-review {
+  height: 24%;
+  }
+
+  html > body div.third {
+    height: 306%;
+  }
+
+  html > body div.fourth {
+    height: 353%;
+  }
+
+  html > body div.content-section {
+  height: 40%;
+  }
+}
