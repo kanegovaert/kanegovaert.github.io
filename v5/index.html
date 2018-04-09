@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Kane Govaert || Full-Stack Developer</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="header-one">
+      <img src="images/logo.png" alt="Kane Govaert Logo">
+      <h1>Hi, I am Kane and I like to develop</h1>
+      <span id="about-me-text"></span>
+    </div>
+
+    <script type="text/javascript" src="js/typed.js" type="Typed"></script>
+
+    <script type="text/javascript">
+    function typeIndex(){
+    var typed = new Typed("#about-me-text", {
+      strings: ["Websites", "Software", "And more"],
+      smartBackspace: true, // Default value
+      typeSpeed: 75,
+      loop: true
+      });
+    }
+    function type(string){
+    var typed = new Typed("#about-me-text", {
+      strings: [string],
+      typeSpeed: 75
+      });
+    }
+    typeIndex();
+    </script>
+  </body>
+</html>
